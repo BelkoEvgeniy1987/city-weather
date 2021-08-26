@@ -86,8 +86,10 @@ body {
     color: transparent
 }
 
-input[type=text], input[type=submit], textarea{
+input {
 	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 } 
 
 
