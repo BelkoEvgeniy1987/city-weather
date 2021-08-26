@@ -83,14 +83,16 @@ body {
 }
   
 :focus:-ms-input-placeholder {
-    color: transparent
+    color: transparent;
 }
 
-input {
+/* input {
 	-webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-} 
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}  */
 
 
 @media (max-width: 370px) { 
