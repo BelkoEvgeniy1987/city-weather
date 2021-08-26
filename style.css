@@ -86,6 +86,9 @@ body {
     color: transparent
 }
 
+input[type=text], input[type=submit], textarea{
+	-webkit-appearance: none;
+} 
 
 
 @media (max-width: 370px) { 
