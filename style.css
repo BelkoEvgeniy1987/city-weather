@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.new-city {
+    height: 40px;
+    width: 350px;
+    display: flex;
+    border: 1px solid;
+}
+
+.cityInput {
+    border: none;
+    border-right: 1px solid;
+    text-align: center;
+    background-color: rgb(241, 235, 235);
+    cursor: pointer;
+    width: 70%;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.cityInput:hover {
+    background-color: rgb(216, 194, 194);
+}
+
+.citySubmit{
+    background-color: #fff;
+    border: none;
+    background-color: rgb(224, 236, 217);
+    cursor: pointer;
+    width: 30%;
+}
+
+.citySubmit:hover{
+    background-color: rgb(198, 216, 188);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.kharkiv-weather {
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+.weatherImg img {
+    width: 50px;
+}
+
+.city, .temperature {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+  
+:focus::-moz-placeholder {
+    color: transparent
+}
+  
+:focus:-moz-placeholder {
+    color: transparent
+}
+  
+:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+
+
+@media (max-width: 370px) { 
+    .new-city {
+        width: 270px;
+    }
+    .cityInput {
+        font-size: 1em;
+    }
+}
